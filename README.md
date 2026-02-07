@@ -31,7 +31,7 @@ Project includes:
 Just download the archieve from this repository and unzip them to your home directory:
 ```
 git clone https://github.com/Dranevich/test_module_v6.12
-unzip ~/test_module_v6.12/test_module.zip -d ~
+unzip ~/test_module_v6.12/test_module_v6.12.zip -d ~
 ```
 ### Another Linux Kernel version
 0. If you're not sure which kernel version do you have, run
@@ -49,7 +49,7 @@ sudo apt install linux-headers-$(uname -r)
 1. Firstly, download the archive & unzip them:
 ```
 git clone https://github.com/Dranevich/test_module_v6.12
-unzip ~/test_module_v6.12/test_module.zip -d ~
+unzip ~/test_module_v6.12/test_module_v6.12.zip -d ~
 ```
 2. Go to the kernel folder and clean the project. Then, build it again:
 ```
