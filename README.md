@@ -62,14 +62,16 @@ make
 cd ~/test_module/User
 rm test_module_loader
 gcc test_module_loader.c -o test_module_loader
+```
 
 ## Usage
 Go to the User folder and run test_module_loader. You'll be asked to enter output file name and timer period value in seconds:
 ```
 cd ~/test_module/User
-```
 ./test_module_loader [filename] [period]
+```
 For checking output file, run:
+```
 cat /var/tmp/test_module/[filename]
 ```
 To remove the module from the kernel, run:
