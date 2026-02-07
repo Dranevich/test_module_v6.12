@@ -2,13 +2,18 @@
 A simple example of Linux kernel module. Does nothing but writes some messages to it's own output file.
 
 ## Description
-The goal of this project is to demonstrate the basic principes how Linux kernel modules work, including their specipic code structure, inserting and removing from the kernel as well as system requirements. The project had been developed as a part of Test Task in February, 2026.
+The goal of this project is to demonstrate the basic principes how Linux kernel modules work, including their specipic code structure, inserting and removing from the kernel as well as system requirements. The project had been developed as a part of internship Test Task in February, 2026.
 Project includes:
-**test_module.c** - module source code
-**Makefile** - make instructions required for building the project
-**test_module_loader.c** - source code for user application used to setup modele parametres
-**README.md** - user documentation
-**test_module.zip** - an archive containing pre-compiled module files & source code.
+
+- **test_module.c** - module source code
+
+- **Makefile** - make instructions required for building the project
+
+- **test_module_loader.c** - source code for user application used to setup modele parametres
+
+- **README.md** - user documentation
+
+- **test_module.zip** - an archive containing pre-compiled module files & source code.
 
 ## Features
 - Writes standard messages to it's own output file every N seconds
